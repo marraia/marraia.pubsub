@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\_fbfm\\marraia.PubSubGoogle\\marraia.PubSubGoogle.Publish\\marraia.PubSubGoogle.Publish.csproj": {}
+  },
+  "projects": {
+    "C:\\_fbfm\\marraia.PubSubGoogle\\marraia.PubSubGoogle.Publish\\marraia.PubSubGoogle.Publish.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_fbfm\\marraia.PubSubGoogle\\marraia.PubSubGoogle.Publish\\marraia.PubSubGoogle.Publish.csproj",
+        "projectName": "marraia.PubSubGoogle.Publish",
+        "projectPath": "C:\\_fbfm\\marraia.PubSubGoogle\\marraia.PubSubGoogle.Publish\\marraia.PubSubGoogle.Publish.csproj",
+        "packagesPath": "C:\\Users\\foes\\.nuget\\packages\\",
+        "outputPath": "C:\\_fbfm\\marraia.PubSubGoogle\\marraia.PubSubGoogle.Publish\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\foes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://marraia.pkgs.visualstudio.com/_packaging/marraia/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/l2-softworks/_packaging/I2softworks/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/myprofit/_packaging/myprofit/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Cloud.PubSub.V1": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.13, 3.1.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
